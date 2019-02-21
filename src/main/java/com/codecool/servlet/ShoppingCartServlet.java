@@ -12,9 +12,6 @@ import static com.codecool.servlet.WebShopServlet.cart;
 
 @WebServlet(name = "ShoppingCartServlet", urlPatterns = {"/checkout"}, loadOnStartup = 4)
 public class ShoppingCartServlet extends HttpServlet {
-    // This should list the content of ItemStore's static list.
-    // It should render a HTML list or a table with the items in it.
-    // It should render a Sum of Price field as well.
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {

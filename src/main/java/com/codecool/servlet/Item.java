@@ -1,7 +1,7 @@
 package com.codecool.servlet;
 
 public class Item {
-    // fields: id(generated Integer), name(String), price(float or double)
+
     public static int staticId = 1;
     private int id;
     private String name;
