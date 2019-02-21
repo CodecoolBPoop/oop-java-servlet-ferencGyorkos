@@ -23,6 +23,7 @@ public class ServletWithAnnotations extends HttpServlet {
                 "<body>\n" +
                 "<h1 align = \"center\">" + title + "</h1>\n" +
                 "<ul>\n" +
+                "<li><b>titulus</b>: " + request.getParameter("titulus") + "\n" +
                 "<li><b>first_name</b>: " + request.getParameter("first_name") + "\n" +
                 "<li><b>Last Name</b>: " + request.getParameter("last_name") + "\n" +
                 "</ul>\n" +
